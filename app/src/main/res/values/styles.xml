@@ -1,0 +1,63 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Map">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.Movie" parent="AppTheme.Map" />
+
+    <style name="AppTheme.Movie.List">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AppTheme.Movie.Details">
+        <item name="android:windowTranslucentStatus">false</item>
+
+        <item name="dialogTheme">@style/AppTheme.Card.Dialog</item>
+        <item name="android:dialogTheme">@style/AppTheme.Card.Dialog</item>
+
+        <item name="alertDialogTheme">@style/AppTheme.Card.Dialog</item>
+        <item name="android:alertDialogTheme">@style/AppTheme.Card.Dialog</item>
+
+        <item name="alertDialogStyle">@style/AppTheme.Card.Dialog</item>
+        <item name="android:alertDialogStyle">@style/AppTheme.Card.Dialog</item>
+    </style>
+
+    <style name="Theme.Leadbolt" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AppTheme.Card">
+        <item name="dialogTheme">@style/AppTheme.Card.Dialog</item>
+        <item name="android:dialogTheme">@style/AppTheme.Card.Dialog</item>
+
+        <item name="alertDialogTheme">@style/AppTheme.Card.Dialog</item>
+        <item name="android:alertDialogTheme">@style/AppTheme.Card.Dialog</item>
+
+        <item name="alertDialogStyle">@style/AppTheme.Card.Dialog</item>
+        <item name="android:alertDialogStyle">@style/AppTheme.Card.Dialog</item>
+    </style>
+
+    <style name="AppTheme.Card.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/Animation.BuyTicket.Card</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Animation.BuyTicket.Card" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/buy_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/buy_dialog_exit</item>
+    </style>
+
+</resources>

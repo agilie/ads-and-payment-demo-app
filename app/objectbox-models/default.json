@@ -1,0 +1,178 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3602894817884954713",
+      "lastPropertyId": "9:8672308854681097833",
+      "name": "MovieObjectBox",
+      "properties": [
+        {
+          "id": "1:7809722728214948083",
+          "name": "id"
+        },
+        {
+          "id": "2:2028222526148320920",
+          "name": "title"
+        },
+        {
+          "id": "4:1504855558099144312",
+          "name": "overview"
+        },
+        {
+          "id": "5:6431724974827156542",
+          "name": "releaseDate"
+        },
+        {
+          "id": "6:5792550075953439714",
+          "name": "averageVote"
+        },
+        {
+          "id": "8:9207890722931258806",
+          "name": "backDrop"
+        },
+        {
+          "id": "9:8672308854681097833",
+          "name": "poster"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:4681425072824545905",
+          "name": "genres"
+        }
+      ]
+    },
+    {
+      "id": "2:7915762669168982659",
+      "lastPropertyId": "2:4412679482367265692",
+      "name": "MovieGenreObjectBox",
+      "properties": [
+        {
+          "id": "1:816488964609510078",
+          "name": "id"
+        },
+        {
+          "id": "2:4412679482367265692",
+          "name": "name"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2702968157083957110",
+      "lastPropertyId": "6:5436762809748251984",
+      "name": "MovieCharacterObjectBox",
+      "properties": [
+        {
+          "id": "1:5668022407198118516",
+          "name": "id"
+        },
+        {
+          "id": "2:8107197800230503769",
+          "name": "movieId"
+        },
+        {
+          "id": "3:8511651951994168579",
+          "name": "character"
+        },
+        {
+          "id": "4:2866792992147955349",
+          "name": "name"
+        },
+        {
+          "id": "5:1793302960906668231",
+          "name": "order"
+        },
+        {
+          "id": "6:5436762809748251984",
+          "name": "profileImage"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:7502062552762195532",
+      "lastPropertyId": "8:8589132050165023444",
+      "name": "MovieDetailsObjectBox",
+      "properties": [
+        {
+          "id": "1:5373730476952555549",
+          "name": "id"
+        },
+        {
+          "id": "2:4007749758147948692",
+          "name": "title"
+        },
+        {
+          "id": "3:2185969109197732042",
+          "name": "tagline"
+        },
+        {
+          "id": "4:4514044801825152334",
+          "name": "overview"
+        },
+        {
+          "id": "5:7922164292228348581",
+          "name": "releaseDate"
+        },
+        {
+          "id": "6:4375173363937625219",
+          "name": "homepage"
+        },
+        {
+          "id": "7:1834920769205978495",
+          "name": "backdropPath"
+        },
+        {
+          "id": "8:8589132050165023444",
+          "name": "posterPath"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:7942510106093347725",
+      "lastPropertyId": "5:1386216693636339969",
+      "name": "MovieSessionObjectBox",
+      "properties": [
+        {
+          "id": "1:8467601802067837524",
+          "name": "id"
+        },
+        {
+          "id": "2:9000099490319264190",
+          "name": "cinemaId"
+        },
+        {
+          "id": "3:8693582420509179071",
+          "name": "movieId"
+        },
+        {
+          "id": "4:1983505976550782795",
+          "name": "date"
+        },
+        {
+          "id": "5:1386216693636339969",
+          "name": "available"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:7942510106093347725",
+  "lastIndexId": "0:0",
+  "lastRelationId": "1:4681425072824545905",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    1273688424360934650,
+    647110767650192340
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

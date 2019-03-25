@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:centerColor="@color/movie_foreground_gradient_center"
+                android:endColor="@color/movie_foreground_gradient_end"
+                android:startColor="@color/movie_foreground_gradient_start"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/movie_foreground_pressed" />
+        </shape>
+    </item>
+</layer-list>

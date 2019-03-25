@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AdsDemoApp</string>
+    <string name="release_date">Release date: %1$s</string>
+    <string name="average_vote">Average vote: %1$s</string>
+    <string name="cast_title">Cast:</string>
+    <string name="description_title">Description:</string>
+    <string name="coming_soon">Coming soon</string>
+
+    <string name="buy_tickets_btn">Buy tickets</string>
+    <string name="title_card_data">Input card data</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_buy">Buy</string>
+    <string name="button_ok">OK</string>
+    <string name="success">Success!</string>
+    <string name="success_purchase">Your purchase was successful processed. You will receive details on your email.</string>
+    <string name="few_tickets_left">few tickets left</string>
+    <string name="sold_out">sold out</string>
+
+    <!-- PARAMETERS/SETTINGS STRINGS-->
+    <string name="base_url_back_drop">https://image.tmdb.org/t/p/w780%1$s</string>
+    <string name="base_url_poster">https://image.tmdb.org/t/p/w154%1$s</string>
+</resources>

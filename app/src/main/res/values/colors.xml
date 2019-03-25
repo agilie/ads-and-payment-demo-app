@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- THEME COLORS -->
+    <color name="colorPrimary">@color/black</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- REAL COLORS -->
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent_black_30">#4C000000</color>
+    <color name="translucent_black_90">#E6000000</color>
+    <color name="translucent_blue_neon_20">#3200F9FF</color>
+    <color name="blue_neon_20">#00F9FF</color>
+    <color name="translucent_white_80">#CCFFFFFF</color>
+    <color name="white">#FFF</color>
+    <color name="grey">#CCC</color>
+    <color name="multiplex_red">#FF5D5D</color>
+    <color name="translucent_multiplex_red_50">#80FF5D5D</color>
+    <color name="translucent_multiplex_red_80">#CCFF5D5D</color>
+    <color name="multiplex_dark_red">#BA4444</color>
+    <color name="app_orange_accent_400">#FF921B</color>
+
+    <!-- APPLICATION COLORS -->
+    <color name="cinema_list_bg">@color/translucent_white_80</color>
+    <color name="movie_foreground_gradient_center">@color/translucent_black_30</color>
+    <color name="movie_foreground_gradient_end">@color/transparent</color>
+    <color name="movie_foreground_gradient_start">@color/translucent_black_90</color>
+    <color name="movie_foreground_pressed">@color/translucent_blue_neon_20</color>
+    <color name="movie_poster_date">@color/grey</color>
+    <color name="movie_poster_name">@color/white</color>
+    <color name="bg_color_btn_buy_tickets">@color/multiplex_red</color>
+    <color name="ripple_color_btn_buy_tickets">@color/multiplex_dark_red</color>
+    <color name="card_tint_color">@color/translucent_multiplex_red_80</color>
+    <color name="card_hint_color">@color/translucent_multiplex_red_50</color>
+    <color name="bg_stripe_token_loading">@color/translucent_black_30</color>
+    <color name="cinema_session_text">@color/black</color>
+    <color name="indicator_few_tickets">@color/app_orange_accent_400</color>
+    <color name="indicator_tickets_sold">@color/multiplex_red</color>
+</resources>
